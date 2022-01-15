@@ -95,5 +95,47 @@ console.log(4.656424325.toFixed(4));
 // scripts.js:70 Infinity
 // scripts.js:71 4.6564
 
+const myInt = 5;
+const nextInt = 10;
+const myWord = "5";
+const nextWord = "10"
+console.log(myInt + nextInt);
+console.log(myWord + nextWord);
+console.log(myWord === myInt);
+console.log(typeof myInt);
+console.log(3.14.toExponential());
+console.log(typeof myWord);
+console.log(typeof true);
+const feeyaAge = "21"
+console.log(feeyaAge);
+const opheliaAge = parseInt(feeyaAge);
+console.log(opheliaAge);
+console.log(typeof feeyaAge);
+console.log(typeof opheliaAge);
+const name = "ophelia";
+const wontWork = parseInt(name);
+console.log(wontWork);
+const anotherNum = 99;
+console.log(anotherNum);
+console.log(typeof anotherNum);
+let markOf = anotherNum.toString();
+console.log(markOf);
+console.log(typeof markOf);
+markOf ="Almost a hundred";
+console.log(markOf);
+let testParse = "46";
+parseInt(testParse);
+console.log(typeof testParse);
+testParse = parseInt(testParse);
+console.log(typeof testParse);
+testParse = testParse.toString();
+console.log(typeof testParse);
+console.log(testParse);
+console.log(name + " is not quite " + testParse + " years old!");
+console.log(typeof NaN);
+console.log(typeof Infinity);
+console.log(typeof boolean);
 
 
+//End of Sunday lesson
+//Tuesday Practice work ahead? Maybe?
